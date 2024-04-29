@@ -1,1 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", monospace;
+}
+
+:root {
+    --redColor: #e75348;
+    --blackColor: #000000;
+    --textColor: #666666;
+    --lightGray: #b2b2b2;
+    --mediumGray: #686868;
+    --grayColor: #f2f2f2;
+    --whiteColor: #ffffff;
+    --greenColor: #53d690;
+    --blueColor: #51a5fb;
+    --borderColor: #e5e5e5;
+    --fs14: 1.4rem;
+    --fs16: 1.6rem;
+    --fs20: 2rem;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    line-height: 1;
+    font-weight: 400;
+}
+
+h3,h4 {
+    font-weight: 600;
+}
+
+h4,p,span{
+    font-size: var(--fs14);
+}
+
+p{
+    color: var(--textColor);
+    line-height: 2.4rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media(min-width: 576px){
+    .container{
+        width: 540px;
+    }
+}
+@media(min-width: 768px){
+    .container{
+        width: 720px;
+    }
+}
+@media(min-width: 992px){
+    .container{
+        width: 960px;
+    }
+}
+@media(min-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+}
+
+.btn {
+    text-transform: capitalize;
+    color: var(--whiteColor);
+    font-size: var(--fs16);
+    padding: 1.2rem 2.7rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.c-red {
+    color: var(--redColor);
+}
+
+.c-white{
+    color: var(--whiteColor);
+}
+
+.c-black {
+    color: var(--blackColor);
+}
+
+.c-lightGray{
+    color: var(--lightGray);
+}
+
+.c-mediumGray {
+    color:var(--mediumGray);
+}
+
+.c-blue{
+    color: var(--blueColor);
+}
+
+.bg-red {
+    background-color: var(--redColor);
+}
+
+.bg-white {
+    background-color: var(--whiteColor);
+}
+
+.bg-gray {
+    background-color: var(--grayColor);
+}
+
+.bg-black {
+    background-color: var(--blackColor);
+}
+
+.bg-geen {
+    background-color: var(--greenColor);
+}
+
+.bg-black {
+    background-color: var(--blueColor);
+}
+
+.t-capitalize {
+    text-transform: capitalize;
+}
+
+.t-uppercase{
+    text-transform: uppercase;
+}
+
+.t-c{
+    text-align: center;
+}
+
+.fs-14{
+    font-size: var(--fs14);
+}
+
+.fs-16{
+    font-size: var(--fs16);
+}
+
+.fs-20{
+    font-size: var(--fs20);
+}
