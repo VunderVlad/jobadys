@@ -7,14 +7,118 @@
     <link rel="stylesheet" href="StyleSheets/style.css">
     <title>JobAdys - Social Media Platform</title>
 </head>
-<body>
-    <div class="container">
-        <div class="sign-in-page">
-            <div class="header">
-                <img src="" alt="Image">
+<body class="bg-red">
+    <div class="container wrapper d-flex align-items-center justify-content-center">
+        <div class="sign-in-page bg-white b-rd-3 d-l-flex">
+            <div class="header p-relative">
+                <img src="/Images/darckLogo.png" alt="Image">
                 <p>
-                    
+                    JobAdys, is a Europe freelancing social networking
+                    professionals connect and collaborate remotely
                 </p>
+                <div class="right d-none d-l-block">
+                    <img src="/Images/job-search-concept.png" alt="Image">
+                </div>
+            </div>
+            <div class="main p-relative">
+                <div class="switcher d-flex align-items-center">
+                    <a href="" class="sign-in" data-section="sign-in-sec" class="sign-in c-black fs-14 active">Sign in</a>
+                    <a href="" class="sign-up" data-section="sign-up-sec" class="sign-up c-black fs-14 ">Sign up</a>
+                </div>
+                <div class="sec sign-in-sec d-none  active">
+                    <h3 class="c-black p-relative">Sign in</h3>
+                    <form action="home.html" class="d-flex flex-d-column">
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Password" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center justify-content-space-between" >
+                                <div class="check d-flex align-items-center">
+                                    <input type="checkbox" name="" id="rm" class="d-none">
+                                    <label for="rm">
+                                        <span class="p-relative b-rd-50 pointer"></span>
+                                    </label>
+                                    <small class="c-black fs-14">Remember me</small>
+                                </div>
+                                <a href="#" class="t-capitalize c-black fs-14">Forget password?</a>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn bg-red">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="login-resources">
+                        <h4 class="t-uppercase c-black">login via social account</h4>
+                        <div class="social d-flex align-items-center flex-wrap-wrap flex-d-xl-row">
+                            <a href="#" class="t-capitalize c-white d-flex align-items-center b-rd-3">
+                                <i class="fab fa-facebook"></i>
+                                login via facebook
+                            </a>
+                            <a href="#" class="t-capitalize c-white d-flex align-items-center b-rd-3">
+                                <i class="fab fa-twitter"></i>
+                                login via twitter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec sign-up-sec d-none">
+                    <h3 class="c-black p-relative">Sign-up</h3>
+                    <form action="#" class="d-flex flex-d-column">
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-at"></i>
+                                <input type="email" placeholder="vladotito@example.com" class="ouline-0 b-0 w-100" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Full Name" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-globe-asia"></i>
+                                <input type="text" placeholder="Country" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Password" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input fs-14 c-lightGray d-flex align-items-center">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Repeat Password" class="ouline-0 b-0 w-100">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="inner-input">
+                                <div class="check">
+                                    <input type="checkbox" name="" id="confirm">
+                                    <label for="confirm">
+                                        <span></span>
+                                    </label>
+                                    <small>Yea, I understand and agree to the jobadys Terme & Conditions.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Get started</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
