@@ -240,3 +240,98 @@
     }
 }
 /* End Login & Register Page */
+/* End Home Page */
+header .header-area .logo img,
+header .header-area .search-bar{
+    margin-top: 1rem;
+}
+
+header .header-area .search-bar input{
+    height: 3.8rem;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+header .header-area .search-bar button{
+    top: 0;
+    right: 0;
+    width: 3.8rem;
+    height: 100%;
+}
+header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    padding: 2.5rem 2rem;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    z-index: 999;
+    transition: all .4s ease-in-out;
+}
+
+header nav.active{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+header nav ul li{
+    margin-bottom: 2rem;
+}
+
+header nav ul li a i{
+    margin-right: 1rem;
+}
+
+header .user-info{
+    padding: 1.3rem 1rem;
+}
+
+header .user-info img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+header .user-info i{
+    font-size: 2.4rem;
+}
+
+@media(min-width: 768px){
+    header .header-area .logo{
+        margin-right: 1.4rem;
+    }
+    header .header-area .search-bar{
+        width: 28rem;
+    }
+    header .user-info{
+        gap: 2rem;
+    }
+}
+@media(min-width:1200px){
+    header nav{
+        width: 60%;
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        padding: 0 1.2rem 0 0;
+    }
+    header nav ul{
+        justify-content: flex-end;
+        gap: 1.3rem;
+    }
+    header nav ul li{
+        margin-bottom:0 ;
+        padding: 1.3rem;
+    }
+    header nav ul li a{
+       gap: .2rem;
+    }
+    header nav ul li a i{
+        margin-right: 0;
+     }
+}
+/* End Home Page */
