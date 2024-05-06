@@ -308,6 +308,97 @@ header .user-info i{
     font-size: 2.4rem;
 }
 
+/* Start main */
+main {
+    padding: 2rem 0 4rem;
+}
+
+main .content {
+    gap:2rem;
+}
+
+main .content .box {
+    border-left: .1rem solid var(--borderColor);
+    border-right: .1rem solid var(--borderColor);
+    border-bottom: .1rem solid var(--borderColor);
+    margin-bottom: 4rem;
+}
+
+main .content .box-1 .user-profile .user-top {
+    padding: 4rem;
+}
+
+main .content .box-1 .user-profile .user-top .user-img{
+    width: 11rem;
+    height: 11rem;
+    margin: 0 auto;
+    margin-bottom: -4.8rem;
+}
+main .content .box-1 .user-profile .user-top .user-img img{
+    border: .5rem solid var(--whiteColor);
+}
+
+main .content .box-1 .user-profile .user-bottom{
+    padding: 6.3rem 0 2.7rem;
+}
+
+main .content .box-1 .user-profile .user-bottom h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+}
+
+main .content .box-1 .user-profile ul li{
+    padding: 1.5rem 0;
+    border-top: .1rem solid var(--borderColor);
+}
+
+main .content .box-1 .user-profile ul li h4{
+   font-weight: 400;
+   margin-bottom: 1rem;
+}
+
+main .content .box-1 .user-profile a{
+    font-weight: 600;
+}
+
+.content .sg-title {
+    padding: 2rem;
+    border-bottom: .1rem solid var(--borderColor);
+}
+
+.content .sg-title h3{
+    font-size: 1.5rem;
+}
+
+.content .sg-list {
+    padding: 1.3rem e 3rem;
+}
+
+.content .sg-list .sg-user{
+    padding: 1.5rem;
+}
+
+.content .sg-list .sg-user .sg-text{
+    margin-left: 1rem;
+}
+
+.content .sg-list .sg-user .sg-text h4{
+    margin-bottom: .4rem;
+}
+
+.content .sg-list .sg-user>span{
+    width: 3rem;
+    height: 3rem;
+    margin-left: auto;
+    border: .1rem solid var(--borderColor);
+}
+
+.content .sg-list .view-more{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+/* Responsive */
 @media(min-width: 768px){
     .logo{
         display: flex;
