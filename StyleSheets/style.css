@@ -258,6 +258,14 @@ header .header-area .search-bar button{
     width: 3.8rem;
     height: 100%;
 }
+
+.logo{
+    margin-bottom: 10px;
+}
+
+.logo img{
+    margin-right: 10px;
+}
 header nav{
     position: fixed;
     top: 0;
@@ -301,6 +309,11 @@ header .user-info i{
 }
 
 @media(min-width: 768px){
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     header .header-area .logo{
         margin-right: 1.4rem;
     }
@@ -312,6 +325,11 @@ header .user-info i{
     }
 }
 @media(min-width:1200px){
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     header nav{
         width: 60%;
         visibility: visible;
@@ -334,4 +352,6 @@ header .user-info i{
         margin-right: 0;
      }
 }
+
+
 /* End Home Page */
