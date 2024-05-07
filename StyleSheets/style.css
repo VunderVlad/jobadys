@@ -434,6 +434,41 @@ main .content .box-1 .user-profile a{
     font-weight: 600;
 }
 
+.content .box-4{
+    box-shadow: 0 0 .1rem rgba(0 0 0 / 24%);
+}
+
+.content .box-4 .post{
+    padding: 2.3rem 2rem;
+    border-top: .4rem solid var(--redColor);
+}
+
+.content .box-4 .post img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.content .box-4 .post .post-btn {
+    gap:.6rem;
+}
+
+.content .box-4 .post .post-btn{
+    padding: 0 .6rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
+
+.content .box-4 .post .post-btn a:first-child{
+    background-color: var(--borderColor);
+}
+
+.content .box-4 .post .post-btn a:first-child:hover{
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+}
+
 /* Responsive */
 @media(min-width: 768px){
     .logo{
