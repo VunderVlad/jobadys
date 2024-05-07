@@ -398,6 +398,42 @@ main .content .box-1 .user-profile a{
     font-weight: 700;
 }
 
+.content .box3{
+    margin-bottom: 0 !important;
+}
+
+.content .box-3 .tags{
+    padding: 2.5rem .5rem;
+}
+
+.content .box-3 .tags ul li{
+    border-right: .1rem solid var(--borderColor);
+    padding: 0 .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.content .box-3 .tags ul li:last-child {
+    border-right: none;
+}
+
+.content .box-3 .tags ul li a{
+    font-size: 1.3rem;
+}
+
+.content .box-3 .tags .tags-bottom {
+    margin-top: 5rem;
+    padding: 0 1.3rem;
+}
+
+.content .box-3 .tags .tags-bottom img{
+    margin-top: 3rem;
+}
+
+.content .box-3 .tags .tags-bottom p{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
 /* Responsive */
 @media(min-width: 768px){
     .logo{
