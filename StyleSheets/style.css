@@ -469,6 +469,216 @@ main .content .box-1 .user-profile a{
     color: var(--whiteColor);
 }
 
+.content .box .post-section{
+    padding: 2rem;
+    box-shadow: 0 .2rem #e4e4e4;
+}
+
+.content .box .post-section .post-topbar .user-info{
+    gap:1.5rem;
+}
+
+.content .box .post-section .post-topbar .user-info img{
+    width:5rem;
+    height: 5rem;
+}
+
+.box .post-section .post-topbar .user-info .info h3{
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.box .post-section .post-topbar .user-info .info i{
+    margin-right: .6rem;
+}
+
+.content .box .epic-sec .details{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+}
+
+.content .box .epic-sec .details .detail{
+    gap:.5rem;
+}
+
+.content .box .links{
+    margin-top:1.5rem;
+    margin-bottom: 1rem;
+    gap: .7rem;
+}
+
+.content .box .links i{
+    width: 3.3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.content .box .job-desc h3{
+    margin-bottom: 1.5rem;
+}
+
+.content .box .job-desc .job-det{
+    margin-bottom: 2.2rem;
+    gap: 1.5rem;
+}
+
+.content .box .job-desc .job-det a{
+    padding: .5rem 1.3rem;
+}
+
+.content .box .job-desc .job-det span{
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.content .box .job-desc p{
+    margin-bottom: 2rem;
+}
+
+.content .box .job-desc p a{
+    font-weight: 600;
+}
+
+.content .box .skill-tags{
+    margin-bottom: 1.5rem;
+    column-gap: .6rem;
+    row-gap: 1.5rem;
+}
+
+.content .box .skill-tags li{
+    margin-bottom: 1rem;
+}
+
+.content .box .skill-tags li a{
+    padding: .7rem 1.5rem;
+    border-radius: .3rem;
+}
+
+.content .box .job-status-bar{
+    border-top: .1rem solid var(--borderColor);
+}
+
+.content .box .job-status-bar ul{
+    margin-top: 2rem;
+}
+
+.content .box .job-status-bar ul li{
+    margin-bottom: 1.5rem;
+}
+
+.content .box .job-status-bar ul li a{
+    margin-top: .6rem;
+    margin-right: .5rem;
+}
+
+.content .box .job-status-bar ul li a i{
+    margin-right: .2rem;
+}
+
+.content .box .job-status-bar ul li a span{
+    font-size: 1.3rem
+}
+
+.content .box .job-status-bar>a i{
+    margin-right: .7rem;
+}
+
+.content .box-6 {
+    border: .1rem solid var(--borderColor);
+}
+
+.content .box-6 .top-profile .title {
+    padding: 2rem;
+    border-bottom: .1rem solid var(--borderColor);
+}
+
+.content .box-6 .top-profile .profile-slider {
+    padding: 2rem;
+}
+
+.content .box-6 .top-profile .profile-slider .slides {
+    overflow: hidden;
+}
+
+.content .box-6 .top-profile .profile-slider .slide{
+    padding-top: 2rem;
+}
+.content .box-6 .top-profile .profile-slider .slide.active{
+   display: flex;
+}
+
+.fade {
+    animation: fade ,5s ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateX(34rem)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.content .box-6 .top-profile .profile-slider .slide img{
+    margin-bottom: .6rem;
+}
+
+.content .box-6 .top-profile .profile-slider .slide h3{
+    margin-bottom: .4rem;
+}
+
+.content .box-6 .top-profile .profile-slider .slide span{
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+
+.content .box-6 .top-profile .profile-slider .slide ul{
+    margin-bottom: 1.5rem;
+    gap: .5rem;
+}
+
+.content .box-6 .top-profile .profile-slider .slide ul li a{
+    padding: .5rem .8rem;
+    font-size: 1.3rem;
+    height: 2.5rem;
+}
+
+.content .box-6 .top-profile .profile-slider .slide>a {
+    padding: 1.5rem 0;
+    border-top: .1rem solid var(--borderColor);
+    transition: all .3s ease-in-out;
+}
+
+.content .box-6 .top-profile .profile-slider .slide>a:hover {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+}
+
+.content .box-6 .top-profile .profile-slider>span{
+    width: 3rem;
+    height: 3rem;
+    top: calc(50% - 3rem);
+    border: .1rem solid var(--borderColor);
+    transition: all .3s ease-in-out;
+}
+
+.content .box-6 .top-profile .profile-slider>span:first-child{
+    left: -1.4rem;  
+}
+
+.content .box-6 .top-profile .profile-slider>span:last-child{
+    right: -1.4rem;  
+}
+
+.content .box-6 .top-profile .profile-slider>span:hover{
+    background-color: var(--redColor);  
+    color: var(--whiteColor);
+}
 /* Responsive */
 @media(min-width: 768px){
     .logo{
