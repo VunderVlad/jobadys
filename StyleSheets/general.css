@@ -119,6 +119,10 @@ p{
     color: var(--blueColor);
 }
 
+.c-green{
+    color: var(--greenColor);
+}
+
 .bg-red {
     background-color: var(--redColor);
 }
