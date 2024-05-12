@@ -737,8 +737,54 @@ main .content .box-1 .user-profile a{
     font-weight: 600;
 }
 
+/* Start Profile Page */
+.cover-sec{
+    height: 20rem;
+}
 
+.cover-sec img{
+    object-fit: cover;
+    height: 100%;
+}
 
+.cover-sec .add-pix-box {
+    top: 3rem;
+    right: 0;
+    font-weight: 600;
+}
+
+.cover-sec .add-pix-box .container form{
+    justify-content: flex-end;
+}
+
+.cover-sec .add-pix-box .container form input{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.cover-sec .add-pix-box .container form label{
+    border: .2rem solid var(--redColor);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.2rem 2rem;
+    transition: all .3s;
+}
+
+.main-sec{
+    gap: 2rem;
+}
+
+.main-sec .left .user-profile{
+    margin-bottom: 2rem;
+    margin-top: -4rem;
+}
+
+.main-sec .left .user-profile .user-pro-img{
+    margin-bottom: 2.8rem;
+    margin-top: -9.5rem;
+}
+/* End Profile Page */
 
 /* Responsive */
 
