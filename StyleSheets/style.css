@@ -807,13 +807,11 @@ main .content .box-1 .user-profile a{
 
 .main-sec{
     gap: 2rem;
-    width: 100%;
 }
 
 .main-sec .left .user-profile{
     margin-bottom: 2rem;
     margin-top: -4rem;
-    width: 90vw;
 }
 
 .main-sec .left .user-profile .user-pro-img{
