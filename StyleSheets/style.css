@@ -939,6 +939,65 @@ main .content .box-1 .user-profile a{
 .main-sec .middle .product-feed-tab .box{
     margin-top: 2rem;
 }
+
+.main-sec .right .portfolio-head {
+    padding: 2rem;
+    border-bottom: .1rem solid var(--borderColor);
+}
+
+.main-sec .right .portfolio-head h3{
+    font-size: 1.8rem;
+}
+
+.main-sec .right .portfolio-body {
+    padding: 1.5rem;
+}
+
+.main-sec .right .portfolio-body ul li a img{
+    width: 10rem;
+}
+
+.main-sec .right .portfolio-body ul li{
+    padding: .5rem;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.main-sec .right .portfolio-body ul li:hover{
+    transform: scale(1.2);
+}
+
+
+footer .footer-sec .container ul {
+    padding: 3rem 0;
+    margin-top: .5rem;
+}
+
+footer .footer-sec .container ul li{
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    border-right: .1rem solid var(--borderColor);
+}
+
+footer .footer-sec .container ul li:last-child{
+    border-right: none;
+}
+
+footer .footer-sec .container ul li a{
+    transition: all .3s ease-in-out;
+}
+
+footer .footer-sec .container ul li a:hover{
+    color: var(--redColor);
+}
+
+footer .footer-sec .container p{
+    margin-bottom: 2rem;
+}
+
+footer .footer-sec .container img{
+    padding-bottom: 2rem;
+}
 /* End Profile Page */
 
 /* Responsive */
@@ -955,6 +1014,7 @@ main .content .box-1 .user-profile a{
         font-size: 1.1rem;
         padding: 0 .5rem;
     }
+    
 }
 
 @media(min-width: 768px){
@@ -1013,15 +1073,18 @@ main .content .box-1 .user-profile a{
 }
 
 @media(min-width: 992px){
-    .content .left {
+    .content .left,
+    .main-sec .left {
         flex-basis: calc(25% - 2rem);
     }
 
-    .content .middle{
+    .content .middle,
+    .main-sec .middle{
         flex-basis: calc(50% - 2rem);
     }
 
-    .content .right{
+    .content .right,
+    .main-sec .right{
         flex-basis: calc(25% - 2rem);
     }
 
@@ -1043,6 +1106,17 @@ main .content .box-1 .user-profile a{
         font-size: 1.8rem;
     }
 
+    .main-sec .let .user-profile .social-links li a {
+        font-size: 1rem;
+    }
+
+    .main-sec .right .portfolio-body ul li{
+        width: 44.44%;
+    }
+
+    footer .footer-sec .container ul{
+        padding: 3rem 0 2.5rem;
+    }
 }
 
 @media(min-width:1200px){
@@ -1084,7 +1158,16 @@ main .content .box-1 .user-profile a{
     .content .sg-list .sg-user {
         padding: 1.5rem;
     }
+    
+    footer .footer-sec .container img{
+        margin: 0;
+        padding: 0;
+    }
 
+    footer .footer-sec .container p{
+        width: 15rem;
+        margin: 0;
+    }
 }
 
 
