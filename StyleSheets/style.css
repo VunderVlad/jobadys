@@ -820,6 +820,7 @@ main .content .box-1 .user-profile a{
 }
 
 .main-sec .left .user-profile .user-pro-img img{
+    width: 18rem;
     border: .5rem solid var(--whiteColor);
 }
 

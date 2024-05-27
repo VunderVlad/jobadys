@@ -6,7 +6,7 @@ function createHeader(){
     <div class="header-area d-m-flex justify-content-center align-items-center">
         <div class="header-top d-m-flex justify-content-space-between align-items-center w-100">
             <div class="logo t-c ">
-                <a href="#">
+                <a href="home.html">
                     <img src="/Images/logos/logo.png" alt="">
                 </a>
                 <div class="search-bar t-c">
@@ -21,7 +21,7 @@ function createHeader(){
             <nav id="navbar" class="bg-red p-xl-relative">
                 <ul class="d-xl-flex">
                     <li>
-                        <a href="#" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-center fs-14">
+                        <a href="home.html" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-center fs-14">
                             <i class="fas fa-home"></i>
                             home
                         </a>
@@ -66,8 +66,10 @@ function createHeader(){
             </nav>
             <div class="user-info d-flex align-items-center justify-content-space-between">
                 <div class="info d-flex align-items-center">
-                    <img src="/Images/image.png" alt="user" class="b-rd-50">
-                    <span class="c-white t-capitalize">Vlado</span>
+                    <a href="profile.html" class="info d-flex align-items-center">
+                        <img src="/Images/Pimage.png" alt="user" class="b-rd-50">
+                        <span class="c-white t-capitalize">Vladyslav</span>
+                    </a>
                 </div>
                 <i class="fas fa-bars c-white pointer d-xl-none"></i>
             </div>
